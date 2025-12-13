@@ -3,6 +3,7 @@
 
 const int RPWM = 5;    // Right PWM input
 const int LPWM = 6;    // Left PWM input
+const int LED  = 13;   // Onboard LED
 
 void motorLeft() {
   analogWrite(LPWM, 255);
