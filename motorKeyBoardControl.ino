@@ -35,7 +35,7 @@ void setup() {
 
 void loop() {
   if (Serial.available()) {
-    char keyBoardButton = Serial.read();     // Read 1 character
+    char keyBoardButton = Serial.read(); 
     Serial.print("You typed: ");
     Serial.println(keyBoardButton);
     if (keyBoardButton == 'a') {
